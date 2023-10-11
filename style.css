@@ -1,0 +1,584 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fasthand&family=Kalam&family=Orbitron:wght@400;900&family=Pixelify+Sans:wght@400;500;700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Caveat&family=Fasthand&family=Kalam&family=Orbitron:wght@400;900&family=Pixelify+Sans:wght@400;500;700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Caveat&family=Fasthand&family=Kalam&family=Orbitron:wght@400;900&family=Pixelify+Sans:wght@400;500;700&family=Poppins:wght@300&family=Young+Serif&display=swap');
+
+/* .navba-brand{
+    font-size: 40px;
+    text-decoration: none;
+} */
+.top {
+    position: sticky !important;
+    top: 0;
+    /* margin-top: -10px; */
+    border-bottom: 5px solid gold;
+}
+
+.nav-img {
+    /* width: 90px; */
+    height: 80px;
+}
+
+.collapse {
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.medi {
+    color: yellow;
+}
+
+.navbar-toggler-icon {
+    font-size: 30px;
+
+    background-color: red;
+    border-radius: 12px;
+}
+
+.home {
+
+    background-image: url(home.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 5px groove black;
+    /* margin-top: 30px; */
+}
+
+.homeoverlay {
+    width: 100%;
+    height: 100vh;
+    border-bottom: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.526);
+}
+
+.homeoverlay>h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Alice', serif;
+}
+
+.mat>h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.para {
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+
+
+
+}
+
+.homeoverlay>p {
+    padding-top: 30px;
+    /* color: white; */
+    text-align: center;
+    /* font-family: 'Kalam', cursive; */
+
+
+}
+
+.button {
+    width: 200px;
+    color: wheat;
+    font-size: 20px;
+    background-color: tomato;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: 5px inset black;
+}
+
+.foodies {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    color: coral;
+    font-size: 30px;
+
+}
+
+.caption {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+
+}
+
+.semi {
+    /* display:block; */
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 50px;
+
+
+}
+
+.mat {
+    /* display: flex;    */
+    justify-content: space-around;
+    margin-right: 200px;
+}
+
+.navbar-nav:hover {
+    color: white;
+}
+
+.about {
+    background-image: url(about.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: -10px;
+    border-bottom: 5px solid black;
+    /* padding-top:60px; */
+}
+
+.aboutoverlay,
+.menuoverlay {
+    background-color: rgba(17, 16, 16, 0.736);
+    height: 200vh;
+    /* padding-top:60px; */
+
+}
+
+.aboutoverlay>h1 {
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.abtus-txt {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+
+.us {
+    color: yellow;
+}
+
+.abtus-txt>h3 {
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+.abtus-txt>p {
+    color: white;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+    background-image: url(menubg.webp);
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: -8px;
+    border-bottom: 5px solid black;
+
+}
+
+.menuoverlay {
+    height: 150vh;
+}
+
+.menuoverlay>h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 108px;
+}
+
+.vegstrts {
+    /* text-align: center; */
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    /* padding-top:80px ; */
+}
+
+.nonveg {
+    color: white;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 70px;
+
+}
+
+.menspan {
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
+
+}
+
+.one {
+    width: 90%;
+    height: 150px;
+    margin: 0px auto;
+    /* padding-top: 30px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.two {
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 90%;
+
+
+}
+
+.biryani {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 70px;
+
+
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+}
+
+.box>p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.friedchkn {
+    width: 200px;
+    object-fit: fill;
+    height: 130px;
+
+}
+
+.menu-icons {
+    color: wheat;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    cursor: pointer;
+    margin: 0px auto;
+}
+
+.Reviewcont {
+    background-image: url(reviews.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 5px solid black;
+}
+
+.reviews {
+    background-color: rgba(28, 27, 27, 0.571);
+    width: 100%;
+    height: 100vh;
+}
+
+.ourreviews {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.rewspan {
+    color: yellow;
+}
+
+.rew1 {
+    width: 360px;
+    height: 290px;
+    border: 3px solid white;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.rew1>h4 {
+    color: gold;
+    margin: 3px;
+}
+
+.rew1>h5 {
+    color: wheat;
+    font-weight: bold;
+    /* font-family: 'Young Serif', serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.rew1>p {
+    color: white;
+}
+
+.rewtotal {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact {
+    background-image: url(contactbg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -8px;
+}
+
+.contact>h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.contactspan {
+    color: yellow;
+}
+
+.conttotal {
+    width: 60%;
+    margin-left: 100px;
+    display: flex;
+    padding: 20px;
+    /* justify-content: space-between; */
+}
+
+.contimg {
+    width: 400px;
+    height: 400px;
+}
+
+.secondbox {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 20, 51);
+    width: 50%;
+}
+
+.secondbox>h4 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.secondbox>input {
+    margin: 20px;
+    border: 3px solid yellow;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.secondbox>button {
+    margin: 40px;
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+}
+
+.carousel {
+    width: 80%;
+    margin: 80px auto;
+    height: 550px;
+    padding: 30px;
+}
+
+.d-block {
+    height: 550px;
+
+}
+
+.grievience {
+    background-image: url(grievience.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    margin: 40px 20px;
+
+
+}
+
+.input {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(85, 85, 96);
+    margin-top: 110px;
+    margin-left: 1030px;
+    color: white;
+}
+
+.grievience>button {
+    margin-left: 1150px;
+    margin-top: 110px;
+    width: 180px;
+    border: none;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.grievience>p {
+    color: white;
+    width: 600px;
+    margin-left: 800px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 90px;
+}
+
+
+@media(max-width: 985px) {
+
+    .one,
+    .two {
+        height: 200px;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        justify-content: space-around;
+
+    }
+
+    .friedchkn {
+        width: 100%;
+        height: 130px;
+        padding: 10PX;
+    }
+
+    .menuoverlay>h1 {
+        padding-top: 110px;
+    }
+
+    .menuoverlay>h3 {
+        margin-top: 20px;
+    }
+
+    .rewtotal {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+        align-items: center;
+    }
+
+    .rew1 {
+        width: auto;
+        height: 180px;
+    }
+
+    .ourreviews {
+        margin-top: -60px;
+    }
+
+    .Reviewcont {
+        height: 90vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .reviews {
+        height: 90vh;
+
+        background-color: rgba(28, 27, 27, 0.571);
+
+    }
+
+    .contact {
+        background-position: center;
+        height: 50vh;
+        width: auto;
+    }
+
+    .conttotal {
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .menu{
+        height: 90vh;
+    }
+    
+    .home {
+        height: 70vh;
+    }
+
+    .about {
+        height: 70vh;
+    }
+
+    .secondbox {
+        width: auto;
+    }
+
+    .contimg {
+        width: 300px;
+    }
+
+    .input {
+        
+        /* width: 400px; */
+        width: auto;
+        height: 90px;
+        
+        margin-left: 200px;
+        
+
+    }
+    .grievience>p{
+        margin-top: 530px;
+        width: auto;
+        margin-left: 10px;
+        
+
+    }
+    .grievience>button {
+        margin-left: 300px;
+        width: auto;
+
+    }
+    .reviews>h4{
+        margin-top: 30px;
+    }
+
+
+
+}
